@@ -1,0 +1,110 @@
+.login-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.website-logo {
+  align-self: flex-end;
+  height: 387px;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  scale: 1;
+}
+
+.login {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #0f172a;
+  transform: translateY(-24px);
+  padding-left: 10%;
+  margin: 0;
+}
+
+.form {
+  width: 80%;
+  /* margin: 20px 0px; */
+  padding: 20px 0;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+}
+
+.input {
+  background-color: #e2e8f0;
+  border-radius: 2px;
+  height: 40px;
+  border: none;
+  color: #171f46;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 16px;
+}
+
+.label {
+  font-family: 'DM Sans';
+  padding-bottom: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+
+.login-button {
+  background: #f7931e;
+  border-radius: 8px;
+  width: 100%;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: center;
+
+  /* General/White */
+
+  color: #ffffff;
+  border: none;
+  height: 40px;
+}
+
+.error-msg {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / red / 500 */
+
+  color: #ef4444;
+  margin: 8px 0;
+}
